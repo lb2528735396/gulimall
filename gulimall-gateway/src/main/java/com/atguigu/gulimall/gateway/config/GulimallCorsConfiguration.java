@@ -22,7 +22,6 @@ public class GulimallCorsConfiguration {
         UrlBasedCorsConfigurationSource source = new UrlBasedCorsConfigurationSource();
 
         CorsConfiguration corsConfiguration=new CorsConfiguration();
-
         //1.配置跨域
         corsConfiguration.addAllowedHeader("*");
         corsConfiguration.addAllowedMethod("*");
